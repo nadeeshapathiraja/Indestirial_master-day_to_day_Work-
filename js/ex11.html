@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		var margin=0;
+		var sw= screen.availWidth;
+		var speed=5;
+		
+		function move() {
+
+			margin += speed;
+		
+			var manElement = document.getElementById('man');
+			manElement.style.marginLeft = margin + "px";
+			setTimeout("move()", 50);
+
+			if (margin>sw) {
+				speed=-5;
+			}
+
+
+		}
+		onload=move;//load una pasuwa cl karanawa(image aka load wenna one page akata nethnm run wenne ne)
+
+	</script>
+
+	<img id="man" src="man.gif" width="200px" onclick="move()">
+
+</body>
+</html>

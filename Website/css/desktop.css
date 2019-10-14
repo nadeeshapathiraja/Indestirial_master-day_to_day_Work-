@@ -1,0 +1,127 @@
+#header{
+	width:960px;
+	height:200px;
+	margin:0 auto;
+	position: relative;/*header ake tina componets aa widihatama tiyagannawa*/
+}
+
+#logo{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+#menu_bar{
+	position: absolute;
+	top: 40px;
+	bottom: 10px;
+	right: 10px;
+
+}
+
+#menu_bar li{
+	display: inline-block;
+	padding: 10px;
+}
+
+#search_bar{
+	position: absolute;
+	top:10px;
+	right: 10px;
+
+}
+
+#search_bar input{
+	border-radius:20px;
+	border: 2px solid white;
+	background-color:#f9f7e8;
+	padding: 5px; 
+}
+
+a{
+	text-decoration: none;
+	color: #665d4e;
+	font-weight: 700;
+}
+a:hover{
+	color: orange;
+}
+
+body{
+	font-family: Arial;
+	background: #f9f7e8 url(../images/bg.gif) repeat-x top center;
+}
+
+#slideshow{
+	width:960px;
+	height:348px;
+	margin:0 auto;
+}
+#slide{
+	border: 4px solid white;
+	border-radius: 10px;
+	box-shadow: 3px 2px 2px gray;
+}
+
+#title{
+	width:960px;
+	height:100px;
+	margin:0 auto;
+}
+
+#title h2{
+	font-family: Arial;
+	color: gray;
+	text-align: center;
+	line-height: 60px;
+	font-size: 1.5em;
+	font-weight: 40px;
+}
+
+#content{
+	width:960px;
+	height:500px;
+	margin:0 auto;
+	
+}
+
+.block{
+	width: 310px
+	height:500px;
+	margin-right:10px;
+	float: left;
+}
+	.last{
+		margin-right: 0px !important;
+	}
+	.block img{
+		width: 306px;
+		border: 3px solid white;
+		border-radius: 3px;
+		box-shadow: 1px 1px 1px #888888;
+	}
+
+	.block h2{
+		color: #665d4e;
+	}
+
+	.block h3{
+		color: #e1820d;
+		border-bottom: 2px solid #665d4e;
+	}
+
+	.block p{
+		color: #665d4e;
+	}
+
+	.block a{
+		color: #e1820b;
+	}
+
+
+#footer{
+	width:100%;
+	height:400px;
+	background-color:#FF8C00;
+	float: left;
+}
+

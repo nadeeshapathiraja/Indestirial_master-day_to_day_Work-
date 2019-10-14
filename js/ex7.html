@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		var salary1= 25000;
+		var salary2= 35000;
+		var salary3=65000;
+		var bonas=1000;
+
+		genSalary(salary1);
+		genSalary(salary2);
+		genSalary(salary3);
+
+		function genSalary(salary) {
+
+			salary=salary+bonas;
+
+			var finalsalary= salary*0.92;
+
+			document.write("Final salary "+ finalsalary+"<br>");
+
+			return finalsalary
+
+
+		}
+
+	</script>
+
+</body>
+</html>
